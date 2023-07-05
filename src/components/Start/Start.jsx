@@ -16,7 +16,7 @@ const Start = () => {
           <a
           href="https://matcastro.vercel.app/"
           target="_blank"
-        ><Button>Normal Portfolio</Button></a>
+        ><Button>Classic Portfolio</Button></a>
           </span>
         </div>
         <ImgDev src={codetyping} />
