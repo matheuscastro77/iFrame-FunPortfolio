@@ -26,7 +26,7 @@ export const Nav = styled.nav`
     align-items: center;
     width: 100%;
     h1 {
-      font-size: 1.8rem;
+      font-size: 1.6rem;
       font-weight: 600;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
         Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -60,7 +60,7 @@ export const Button = styled.button`
   height: 2.5vh;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 600;
   color: white;
 `;
