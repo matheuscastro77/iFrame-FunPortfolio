@@ -32,7 +32,7 @@ export const ImgPhone = styled.img`
 `;
 
 export const BoxContact = styled.div`
-  width: 60%;
+  width: 70%;
   text-align: center;
   display: flex;
   flex-direction: column;
