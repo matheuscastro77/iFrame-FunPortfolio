@@ -28,12 +28,12 @@ export const Container = styled.div`
     width: 60%;
 
     h2 {
-      font-size: 2rem;
+      font-size: 1.8rem;
       margin-bottom: 7%;
     }
 
     h3 {
-      font-size: 1.5rem;
+      font-size: 1.2rem;
       font-weight: 600;
     }
   }
@@ -41,5 +41,4 @@ export const Container = styled.div`
   img {
     width: 30%;
   }
-  
 `;

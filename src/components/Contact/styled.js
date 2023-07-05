@@ -22,8 +22,9 @@ export const Container = styled.div`
 
   h2 {
     color: #e6e6e6;
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
+
 `;
 
 export const ImgPhone = styled.img`

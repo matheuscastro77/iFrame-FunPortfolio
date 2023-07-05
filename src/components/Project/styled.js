@@ -17,7 +17,7 @@ export const Main = styled.main`
 
   h2 {
     color: #e6e6e6;
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 `;
 
@@ -25,19 +25,20 @@ export const Body = styled.body`
   width: 80%;
   display: flex;
   justify-content: space-between;
-
 `;
 
 export const Img = styled.img`
   width: 40%;
   margin-top: 8%;
-
 `;
 
 export const ContainerProjects = styled.div`
   width: 51.5%;
   text-align: center;
 
+  @media screen and (max-width: 414px) {
+    width: 100%;
+  }  
 `;
 
 export const Container = styled.div`
@@ -67,7 +68,6 @@ export const BoxProject = styled.div`
   background-color: #2f2e41;
   align-items: center;
   color: #e6e6e6;
-  
 
   img {
     width: 100%;
@@ -82,12 +82,9 @@ export const BoxProject = styled.div`
     :hover{
       cursor: pointer;
     }
-
-
   }
 
   h3 {
-
   }
 
   button {

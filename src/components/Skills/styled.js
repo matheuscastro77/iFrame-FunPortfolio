@@ -28,6 +28,7 @@ export const Container = styled.div`
   img {
     width: 40%;
   }
+
 `;
 
 export const BoxAbilitys = styled.div`
@@ -53,7 +54,6 @@ export const BoxImg = styled.div`
 
     img {
       width: 75%;
-      
       :hover {
         cursor: pointer;
         transform: scale(1.05);
