@@ -64,7 +64,7 @@ export const Container = styled.div`
 export const BoxProject = styled.div`
   display: flex;
   flex-direction: column;
-  width: 16.5vw;
+  width: 18vw;
   background-color: #2f2e41;
   align-items: center;
   color: #e6e6e6;
@@ -93,7 +93,7 @@ export const BoxProject = styled.div`
     color: #e6e6e6;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
       Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 600;
 
     :hover {
