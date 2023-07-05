@@ -53,7 +53,7 @@ export const BoxImg = styled.div`
     height: 15vh;
 
     img {
-      width: 75%;
+      width: 65%;
       :hover {
         cursor: pointer;
         transform: scale(1.05);

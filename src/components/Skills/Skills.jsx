@@ -16,27 +16,27 @@ const Skills = () => {
         <BoxAbilitys>
           <h2>Skills</h2>
           <BoxImg>
-          <div>
-            <img src={css} />
-          </div>
-          <div>
-            <img src={ts} />
-          </div>
-          <div>
-            <img src={js} />
-          </div>
-          <div>
-            <img src={html} />
-          </div>
-          <div>
-            <img src={react2} />
-          </div>
-          <div>
-            <img src={threejs} />
-          </div>
+            <div>
+              <img src={threejs} />
+            </div>
+
+            <div>
+              <img src={ts} />
+            </div>
+            <div>
+              <img src={js} />
+            </div>
+            <div>
+              <img src={html} />
+            </div>
+            <div>
+              <img src={react2} />
+            </div>
+            <div>
+              <img src={css} />
+            </div>
           </BoxImg>
         </BoxAbilitys>
-        
       </Container>
     </Main>
   );
