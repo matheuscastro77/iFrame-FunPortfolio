@@ -66,16 +66,16 @@ export const DivIcons = styled.div`
 `;
 
 export const Img = styled.img`
-  width: 40%;
+  width: 35%;
 `;
 
 export const Button = styled.button`
-  border: 1px solid white;
+  border: 2px solid white;
   background-color: transparent;
   height: 6vh;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 600;
   color: white;
   margin-top: 20%;
