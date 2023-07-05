@@ -2,18 +2,13 @@ import React, { useRef } from "react";
 import {
   Main,
   Nav,
-  Button,
-  ButtonMenu,
-  DivModal,
-  NavMenu,
-  ButtonClose,
+  Button
 } from "./styled";
 import About from "../../components/About/About";
 import Skills from "../../components/Skills/Skills";
 import Project from "../../components/Project/Project";
 import Contact from "../../components/Contact/Contact";
 import Start from "../../components/Start/Start";
-import MenuIcon from '@mui/icons-material/Menu';
 import { useContext } from "react";
 import GlobalStateContext from "../../context/GlobalStateContext";
 
@@ -31,21 +26,13 @@ const Home = () => {
       top: elementRef.current.offsetTop,
       behavior: 'smooth'
     })
-    setMenu(false);
   }
-
-  const menuIsVisible = () => {
-    setMenu(!menu);
-  };
 
   return (
     <Main>
       <Nav>
         <div>
           <h1>Matheus Castro</h1>
-          <ButtonMenu onClick={() => menuIsVisible()}>
-            <MenuIcon sx={{ fontSize: "28px", color: "white" }} />
-          </ButtonMenu>
           <container>
             <Button onClick={() => scrollToSection(ScrollHome)}> Home </Button>
             <Button onClick={() => scrollToSection(ScrollAbout)}> About </Button>
@@ -54,18 +41,6 @@ const Home = () => {
             <Button onClick={() => scrollToSection(ScrollContact)}> Contact </Button>
           </container>
         </div>
-        {menu ? (
-          <DivModal>
-            <ButtonClose onClick={() => menuIsVisible()}>X</ButtonClose>
-            <NavMenu>
-            <Button onClick={() => scrollToSection(ScrollHome)}> Home </Button>
-            <Button onClick={() => scrollToSection(ScrollAbout)}> About </Button>
-            <Button onClick={() => scrollToSection(ScrollAbility)}> Skills </Button>
-            <Button onClick={() => scrollToSection(ScrollProject)}> Projects </Button>
-            <Button onClick={() => scrollToSection(ScrollContact)}> Contact </Button>
-            </NavMenu>
-          </DivModal>
-        ) : null}
       </Nav>
       <div ref={ScrollHome}>
         <Start />

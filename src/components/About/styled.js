@@ -27,59 +27,19 @@ export const Container = styled.div`
     text-align: center;
     width: 60%;
 
-    @media screen and (max-width: 414px) {
-      width: 90%;
-    }
-
     h2 {
-      font-size: 1.8rem;
+      font-size: 2rem;
       margin-bottom: 7%;
-
-      @media screen and (max-width: 1768px) {
-        font-size: 1.6rem;
-      }
-
-      @media screen and (max-width: 1366px) {
-        font-size: 1.4rem;
-      }
-
-      @media screen and (max-width: 1280px) {
-      font-size: 1.2rem;
-    }
-
-      @media screen and (max-width: 1176px) {
-        font-size: 1.1rem;
-      }
     }
 
     h3 {
-      font-size: 1.2rem;
+      font-size: 1.5rem;
       font-weight: 600;
-
-      @media screen and (max-width: 1768px) {
-        font-size: 1.1rem;
-      }
-
-      @media screen and (max-width: 1366px) {
-        font-size: 0.9rem;
-      }
-
-      @media screen and (max-width: 1176px) {
-        font-size: 0.8rem;
-      }
     }
   }
 
   img {
     width: 30%;
-
-    @media screen and (max-width: 414px) {
-      margin-top: 15%;
-      width: 75%;
-    }
   }
-  @media screen and (max-width: 414px) {
-    display: flex;
-    flex-direction: column;
-  }
+  
 `;

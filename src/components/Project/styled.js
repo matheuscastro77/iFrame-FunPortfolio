@@ -17,27 +17,7 @@ export const Main = styled.main`
 
   h2 {
     color: #e6e6e6;
-    font-size: 1.8rem;
-
-    @media screen and (max-width: 1440px) {
-      font-size: 1.6rem;
-    }
-
-    @media screen and (max-width: 1366px) {
-      font-size: 1.4rem;
-    }
-
-    @media screen and (max-width: 1280px) {
-      font-size: 1.2rem;
-    }
-
-    @media screen and (max-width: 1176px) {
-      font-size: 1.1rem;
-    }
-
-    @media screen and (max-width: 414px) {
-      margin-bottom: 10%;
-    }
+    font-size: 2rem;
   }
 `;
 
@@ -46,29 +26,18 @@ export const Body = styled.body`
   display: flex;
   justify-content: space-between;
 
-
-  @media screen and (max-width: 414px) {
-    width: 90%;
-    flex-direction: column;
-  }
 `;
 
 export const Img = styled.img`
   width: 40%;
   margin-top: 8%;
 
-  @media screen and (max-width: 414px) {
-    display: none;
-  }
 `;
 
 export const ContainerProjects = styled.div`
   width: 51.5%;
   text-align: center;
 
-  @media screen and (max-width: 414px) {
-    width: 100%;
-  }  
 `;
 
 export const Container = styled.div`
@@ -77,11 +46,6 @@ export const Container = styled.div`
   grid-gap: 20px 35px;
   overflow-y: hidden;
   padding-bottom: 2%;
-
-  @media screen and (max-width: 414px) {
-    padding-bottom: 8%;
-    grid-gap: 15px 30px;
-  }
 
   ::-webkit-scrollbar-track {
     background-color: #3f3d56;
@@ -104,10 +68,6 @@ export const BoxProject = styled.div`
   align-items: center;
   color: #e6e6e6;
   
-  @media screen and (max-width: 414px) {
-    width: 50vw;
-    height: 26vh;
-  }
 
   img {
     width: 100%;
@@ -124,32 +84,10 @@ export const BoxProject = styled.div`
     }
 
 
-    @media screen and (max-width: 1024px) {
-      width: 60%;
-    }
-
-    @media screen and (max-width: 414px) {
-      width: 70%;
-    }
   }
 
   h3 {
-    @media screen and (max-width: 1768px) {
-      font-size: 1.1rem;
-    }
 
-    @media screen and (max-width: 1366px) {
-      font-size: 1rem;
-    }
-
-    @media screen and (max-width: 1280px) {
-      font-size: 0.9rem;
-    }
-
-
-    @media screen and (max-width: 1176px) {
-      font-size: 0.8rem;
-    }
   }
 
   button {
@@ -160,22 +98,6 @@ export const BoxProject = styled.div`
       Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 1.2rem;
     font-weight: 600;
-
-    @media screen and (max-width: 1768px) {
-      font-size: 1rem;
-    }
-
-    @media screen and (max-width: 1366px) {
-      font-size: 0.9rem;
-      border: 1px solid #e6e6e6; }
-
-    @media screen and (max-width: 1176px) {
-      font-size: 0.7rem;
-    }
-
-    @media screen and (max-width: 412px) {
-      font-size: 0.8rem;
-    }
 
     :hover {
       cursor: pointer;

@@ -13,10 +13,6 @@ export const Main = styled.main`
   justify-content: space-around;
   align-items: center;
 
-  @media screen and (max-width: 414px) {
-    height: 100vh;
-  }
-
   span{
 
     :hover {
@@ -42,69 +38,30 @@ export const Container = styled.div`
     h1 {
       font-size: 2.8rem;
       margin: 5px 0px 5px 0px;
-
-      @media screen and (max-width: 1768px) {
-        font-size: 2.6rem;
-      }
-
-      @media screen and (max-width: 1366px) {
-        font-size: 2.2rem;
-      }
     }
 
     h2 {
       font-size: 1.6rem;
       margin: 5px 0px 5px 0px;
-
-      @media screen and (max-width: 1768px) {
-        font-size: 1.1rem;
-      }
-
-      @media screen and (max-width: 1366px) {
-        font-size: 1rem;
-      }
     }
 
     h3 {
       font-size: 1.6rem;
       margin: 5px 0px 5px 0px;
       text-align: center;
-
-      @media screen and (max-width: 1768px) {
-        font-size: 1.4rem;
-      }
-
-      @media screen and (max-width: 1366px) {
-        font-size: 1.2rem;
-      }
   }
 }
-  @media screen and (max-width: 414px) {
-    margin-top: 15%;
-    display: flex;
-    flex-direction: column;
-  }
 
 `
 
 export const ImgDev = styled.img`
   width: 50%;
-
-  @media screen and (max-width: 414px) {
-    margin-top: 35%;
-    width: 100%;
-  }
 `;
 
 export const DivIcons = styled.div`
   display: flex;
   justify-content: space-around;
   width: 75%;
-
-  @media screen and (max-width: 414px) {
-    width: 98%;
-    padding-left: 20%;
-  }
 
   :hover {
     cursor: pointer;
@@ -115,14 +72,6 @@ export const DivIcons = styled.div`
 
 export const Img = styled.img`
   width: 40%;
-
-  @media screen and (max-width: 1366px) {
-    width: 30%;
-  }
-
-  @media screen and (max-width: 414px) {
-    width: 35%;
-  }
 `;
 
 export const Button = styled.button`
