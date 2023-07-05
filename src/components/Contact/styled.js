@@ -41,7 +41,7 @@ export const BoxContact = styled.div`
 
 export const BoxImg = styled.div`
   display: flex;
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
   justify-content: space-around;
 `;
