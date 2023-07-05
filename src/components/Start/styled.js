@@ -128,13 +128,12 @@ export const Img = styled.img`
 export const Button = styled.button`
   border: 1px solid white;
   background-color: transparent;
-  height: 5.5vh;
+  height: 7vh;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 600;
   color: white;
   margin-top: 20%;
   border-radius: 10px
-
-`
+`;
