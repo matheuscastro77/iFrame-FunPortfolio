@@ -64,7 +64,7 @@ export const Container = styled.div`
 export const BoxProject = styled.div`
   display: flex;
   flex-direction: column;
-  width: 18vw;
+  width: 20vw;
   background-color: #2f2e41;
   align-items: center;
   color: #e6e6e6;
@@ -75,7 +75,7 @@ export const BoxProject = styled.div`
   }
 
   div {
-    width: 60%;
+    width: 70%;
     display: flex;
     justify-content: space-around;
 
