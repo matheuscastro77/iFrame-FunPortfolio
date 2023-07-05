@@ -36,17 +36,12 @@ export const Container = styled.div`
     text-align: center;
 
     h1 {
-      font-size: 2.8rem;
+      font-size: 2.5rem;
       margin: 5px 0px 5px 0px;
     }
 
     h2 {
-      font-size: 1.6rem;
-      margin: 5px 0px 5px 0px;
-    }
-
-    h3 {
-      font-size: 1.6rem;
+      font-size: 1.4rem;
       margin: 5px 0px 5px 0px;
       text-align: center;
   }
@@ -77,10 +72,10 @@ export const Img = styled.img`
 export const Button = styled.button`
   border: 1px solid white;
   background-color: transparent;
-  height: 5.5vh;
+  height: 6vh;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 600;
   color: white;
   margin-top: 20%;

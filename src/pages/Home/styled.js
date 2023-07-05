@@ -40,7 +40,7 @@ export const Nav = styled.nav`
     }
 
     container {
-      width: 30%;
+      width: 40%;
       display: flex;
       justify-content: space-between;
       align-items: center;

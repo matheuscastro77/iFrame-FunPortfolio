@@ -11,7 +11,7 @@ const Start = () => {
       <Container>
         <div>
           <h1>Matheus Castro</h1>
-          <h3>Front-end Developer</h3>
+          <h2>Front-end Developer</h2>
           <span>
           <a
           href="https://matcastro.vercel.app/"
