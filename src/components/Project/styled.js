@@ -17,7 +17,7 @@ export const Main = styled.main`
 
   h2 {
     color: #e6e6e6;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
 `;
 

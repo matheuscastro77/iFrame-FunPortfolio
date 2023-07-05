@@ -28,12 +28,12 @@ export const Container = styled.div`
     width: 60%;
 
     h2 {
-      font-size: 1.8rem;
+      font-size: 1.6rem;
       margin-bottom: 7%;
     }
 
     h3 {
-      font-size: 1.2rem;
+      font-size: 1rem;
       font-weight: 600;
     }
   }
