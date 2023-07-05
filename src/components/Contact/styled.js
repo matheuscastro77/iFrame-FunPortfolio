@@ -32,18 +32,19 @@ export const ImgPhone = styled.img`
 `;
 
 export const BoxContact = styled.div`
-  width: 70%;
+  width: 60%;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  border: 2px solid red;
 `;
 
 export const BoxImg = styled.div`
   display: flex;
   width: 60%;
   margin: 0 auto;
-  justify-content: space-around;
+  justify-content: space-between;
 `;
 
 export const Img = styled.img`
