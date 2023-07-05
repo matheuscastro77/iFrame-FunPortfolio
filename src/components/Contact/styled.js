@@ -37,7 +37,6 @@ export const BoxContact = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  border: 2px solid red;
 `;
 
 export const BoxImg = styled.div`
