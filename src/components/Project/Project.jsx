@@ -3,7 +3,7 @@ import covidDaily from "../../assets/covid-daily.png";
 import pokemon from "../../assets/pokemon.png";
 import slaca from "../../assets/slaca.png";
 import meta from "../../assets/meta.png";
-import pharma from "../../assets/pharma.png";
+import netflix from "../../assets/netflix.png";
 import ecommerce from "../../assets/ecommerce.png";
 import apexcharts from "../../assets/apexcharts.png";
 import fox3d from "../../assets/fox3d.png";
@@ -247,16 +247,19 @@ const Project = () => {
             </BoxProject>
 
             <BoxProject>
-              <img src={pharma} />
-              <h3>Pharma</h3>
+              <img src={netflix} />
+              <h3>Netflix Clone With Trailers</h3>
               <div>
                 <a
-                  href="https://github.com/matheuscastro77/-FrontEndChallenge-COODESH"
+                  href="https://github.com/matheuscastro77/netflix-Clone"
                   target="_blank"
                 >
                   <button>GitHub</button>
                 </a>
-                <a href="https://coodesh-pharma.vercel.app/" target="_blank">
+                <a
+                  href="https://netflix-clone-with-trailer.vercel.app/"
+                  target="_blank"
+                >
                   <button>Demo</button>
                 </a>
               </div>
